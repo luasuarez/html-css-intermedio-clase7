@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    background-color: aqua;
+}
+
+.section-row {
+    background-color: #0833a2;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.row {
+    /*background-color: chartreuse;*/
+    width: 70%;
+}
+
+
+.container-icons {
+    /*background-color: coral;*/
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.init-icons {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.init-icons h3, p{
+    text-align: center;
+    color: bisque;
+    font-family: cursive;
+}
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    color: bisque;
+}
+
+.container-box{
+    background-color: #141470;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.container-box h2{
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: cornsilk;
+}
+
+.container-box h2:nth-child(2){
+    color: rgb(231, 85, 41);
+    font-family: cursive;
+}
+
+button {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(30, 30, 233);
+    border-radius: 30px;
+    font-family: cursive;
+}
